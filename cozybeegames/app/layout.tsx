@@ -8,6 +8,12 @@ const sourGummy = localFont({
   weight: "400 700", 
 });
 
+const dongle = localFont({
+  src: "../public/assets/fonts/Dongle-Regular.ttf",
+  variable: "--font-dongle",
+  weight: "400 700", 
+});
+
 export const metadata: Metadata = {
   title: "Cozy Bee Games",
   description: "Games by Cozy Bee Games",
@@ -21,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${sourGummy.variable} antialiased`}
+        className={`${sourGummy.variable} ${dongle.variable} antialiased`}
         >
         {children}
       </body>

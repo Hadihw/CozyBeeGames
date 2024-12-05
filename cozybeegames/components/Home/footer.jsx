@@ -1,43 +1,58 @@
-'use client'
+'use client';
 
-import Image from "next/image"
-import Link from "next/link"
-import { Twitter, Youtube } from 'lucide-react'
-import { Button } from "@/components/ui/button"
+import Image from 'next/image';
+import Link from 'next/link';
+import { Twitter, Youtube } from 'lucide-react';
+import { FaSteam } from 'react-icons/fa';
 
-export default function Footer() {
+function Footer() {
   return (
-    <footer className="bg-textPrimary text-background py-12">
+    <footer className="relative z-10 bg-[#FFF3E0] text-[#8D6E63] py-12 border-t border-[#8D6E63]">
       <div className="container mx-auto px-4">
+        {/* Logo and Social Links */}
         <div className="flex flex-col items-center mb-8">
-          <Image 
+          <Image
             src="/assets/images/CozyBeeGames_Logo_ColorEmpty.png"
-            alt="Cozy Bee Games Logo" 
-            width={80} 
-            height={80} 
-            className="mb-4 hover:rotate-12 transition-transform duration-300" 
+            alt="Cozy Bee Games Logo"
+            width={80}
+            height={80}
+            className="mb-4 cursor-pointer hover:rotate-12 transition-transform duration-300"
           />
-          <div className="flex items-center space-x-6 mb-6">
-            <Link href="#" className="hover:text-primaryButton transition-colors hover:scale-125 transform">
+          <div className="flex items-center space-x-6">
+            <Link
+              href="#"
+              className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
+              aria-label="Twitter"
+            >
               <Twitter className="h-6 w-6" />
             </Link>
-            <Link href="#" className="hover:text-primaryButton transition-colors hover:scale-125 transform">
+            <Link
+              href="#"
+              className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
+              aria-label="YouTube"
+            >
               <Youtube className="h-6 w-6" />
             </Link>
-            <Button className="bg-primaryButton text-white hover:bg-primaryButtonHover hover:scale-105 transform transition-all duration-300 px-6">
-              STEAM
-            </Button>
+            <Link
+              href="https://store.steampowered.com/app/255510/The_Ranch_of_Rivershine/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
+              aria-label="Steam"
+            >
+              <FaSteam className="h-6 w-6" />
+            </Link>
           </div>
         </div>
-        <div className="flex justify-center space-x-8 text-sm">
-          <Link className="hover:text-primaryButton transition-colors" href="#">Privacy Policy</Link>
-          <Link className="hover:text-primaryButton transition-colors" href="#">Terms of Service</Link>
-          <Link className="hover:text-primaryButton transition-colors" href="#">Contact Us</Link>
-        </div>
-        <div className="text-center mt-8 text-sm text-background/60">
+
+        {/* Copyright Information */}
+        <div className="text-center text-sm text-[#8D6E63]/80 font-serif">
           © {new Date().getFullYear()} Cozy Bee Games. All rights reserved.
         </div>
       </div>
     </footer>
-  )
+  );
 }
+
+export default Footer;
+

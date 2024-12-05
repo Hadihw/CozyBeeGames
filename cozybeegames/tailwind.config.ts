@@ -26,7 +26,8 @@ const config: Config = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
 			fontFamily: {
-				serif: ['var(--font-sour-gummy)', 'serif'],
+				serif: ['var(--font-sour-gummy)', 'serif']	,
+				dongle: ['var(--font-dongle)', 'serif'],
 			}
   	}
   },
