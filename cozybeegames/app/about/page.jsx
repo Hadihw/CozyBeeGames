@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react'
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import Header from '@/components/Home/header'
-import Footer from '@/components/Home/footer'
-import ScrollToTopButton from '@/components/scrollToTopButton'
-import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
+import Header from '@/components/home/Header'
+import Footer from '@/components/home/Footer'
+import ScrollToTopButton from '@/components/ScrollToTopButton'
+import { FaTwitter, FaInstagram } from 'react-icons/fa'
 
 export default function AboutPage() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -21,7 +21,7 @@ export default function AboutPage() {
       <Header />
       <main className="pt-[68px]">
         <div className="relative bg-gradient-to-b from-[#F0E6D2] to-[#FFFAF5] py-24">
-          <div className="absolute inset-0 bg-[url('/assets/images/honeycomb-pattern.png')] opacity-10"></div>
+          <div className="absolute inset-0 opacity-10"></div>
           <div className="container mx-auto px-4 relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -57,7 +57,7 @@ export default function AboutPage() {
                 <CardContent className="p-6 md:p-8 flex flex-col md:flex-row items-center">
                   <div className="md:w-1/3 mb-6 md:mb-0 md:mr-8">
                     <Image
-                      src="/assets/images/eloise-laroche.jpg"
+                      src="/assets/images/about/eloise-laroche.jpg"
                       alt="Eloise Laroche"
                       width={300}
                       height={300}
@@ -73,14 +73,11 @@ export default function AboutPage() {
                       With a passion for creating warm, inviting digital worlds, Eloise founded Cozy Bee Games to bring joy and relaxation to players around the globe. Her unique blend of technical expertise and artistic vision breathes life into every project.
                     </p>
                     <div className="flex space-x-4">
-                      <a href="https://twitter.com/EloiseLaroche" target="_blank" rel="noopener noreferrer" className="text-[#5D4037] hover:text-[#8D6E63] transition-colors">
+                      <a href="https://x.com/EloiseGameDev" target="_blank" rel="noopener noreferrer" className="text-[#5D4037] hover:text-[#8D6E63] transition-colors">
                         <FaTwitter className="text-2xl" />
                       </a>
-                      <a href="https://github.com/EloiseL" target="_blank" rel="noopener noreferrer" className="text-[#5D4037] hover:text-[#8D6E63] transition-colors">
-                        <FaGithub className="text-2xl" />
-                      </a>
-                      <a href="https://www.linkedin.com/in/eloise-laroche" target="_blank" rel="noopener noreferrer" className="text-[#5D4037] hover:text-[#8D6E63] transition-colors">
-                        <FaLinkedin className="text-2xl" />
+                      <a href="https://www.instagram.com/eloisegamedev/" target="_blank" rel="noopener noreferrer" className="text-[#5D4037] hover:text-[#8D6E63] transition-colors">
+                        <FaInstagram className="text-2xl" />
                       </a>
                     </div>
                   </div>

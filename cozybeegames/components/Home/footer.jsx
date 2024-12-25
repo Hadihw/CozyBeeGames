@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Twitter, Youtube } from 'lucide-react';
-import { FaSteam } from 'react-icons/fa';
+import { FaSteam, FaInstagram } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -20,23 +20,33 @@ function Footer() {
           />
           <div className="flex items-center space-x-6">
             <Link
-              href="#"
+              href="https://x.com/EloiseGameDev"
+              target="_blank"
               className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
               aria-label="Twitter"
             >
               <Twitter className="h-6 w-6" />
             </Link>
             <Link
-              href="#"
+              href="https://www.youtube.com/@CozyBeeGames"
               className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
               aria-label="YouTube"
             >
               <Youtube className="h-6 w-6" />
             </Link>
+
             <Link
-              href="https://store.steampowered.com/app/255510/The_Ranch_of_Rivershine/"
+              href="https://www.instagram.com/eloisegamedev/"
               target="_blank"
-              rel="noopener noreferrer"
+              className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
+              aria-label="Instagram"
+            >
+              <FaInstagram className="h-6 w-6" />
+            </Link>
+
+            <Link
+              href="https://store.steampowered.com/developer/cozybeegames/"
+              target="_blank"
               className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
               aria-label="Steam"
             >

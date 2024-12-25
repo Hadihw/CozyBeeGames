@@ -10,9 +10,9 @@ import { Card, CardContent } from "@/components/ui/card"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import * as z from "zod"
-import Header from '@/components/Home/header'
-import Footer from '@/components/Home/footer'
-import ScrollToTopButton from '@/components/scrollToTopButton'
+import Header from '@/components/home/Header'
+import Footer from '@/components/home/Footer'
+import ScrollToTopButton from '@/components/ScrollToTopButton'
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -43,7 +43,7 @@ export default function ContactPage() {
       <Header />
       <main className="pt-[68px]">
         <div className="relative bg-gradient-to-b from-[#F0E6D2] to-[#FFFAF5] py-24">
-          <div className="absolute inset-0 bg-[url('/assets/images/honeycomb-pattern.png')] opacity-10"></div>
+          <div className="absolute inset-0 opacity-10"></div>
           <div className="container mx-auto px-4 relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
