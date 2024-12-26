@@ -4,9 +4,6 @@ import { useRef, useState, useEffect } from 'react'
 import { motion, useScroll, useTransform } from "framer-motion"
 import {
   Play,
-  Menu,
-  Twitter,
-  Youtube,
   Download,
   ChevronRight,
   Mail,
@@ -14,7 +11,6 @@ import {
   X
 } from 'lucide-react'
 import Image from 'next/image'
-import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"

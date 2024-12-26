@@ -55,7 +55,7 @@ export default function ContactPage() {
                 Get in Touch
               </h1>
               <p className="text-xl md:text-2xl text-[#8D6E63] max-w-2xl mx-auto italic">
-                We'd love to hear from you!
+                We&apos;d love to hear from you!
               </p>
             </motion.div>
           </div>
@@ -86,7 +86,7 @@ export default function ContactPage() {
                       className="bg-[#8D6E63] text-white p-6 rounded-lg shadow-md"
                     >
                       <h3 className="text-2xl font-bold mb-2">Thank You!</h3>
-                      <p>Your message has been sent successfully. We'll get back to you soon!</p>
+                      <p>Your message has been sent successfully. We&apos;ll get back to you soon!</p>
                     </motion.div>
                   ) : (
                     <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">

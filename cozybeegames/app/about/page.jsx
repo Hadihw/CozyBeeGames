@@ -58,19 +58,19 @@ export default function AboutPage() {
                   <div className="md:w-1/3 mb-6 md:mb-0 md:mr-8">
                     <Image
                       src="/assets/images/about/eloise-laroche.jpg"
-                      alt="Eloise Laroche"
+                      alt="Éloïse Laroche"
                       width={300}
                       height={300}
                       className="rounded-full shadow-lg"
                     />
                   </div>
                   <div className="md:w-2/3">
-                    <h2 className="text-3xl font-bold mb-4 text-[#8D6E63]">Eloise Laroche</h2>
+                    <h2 className="text-3xl font-bold mb-4 text-[#8D6E63]">Éloïse Laroche</h2>
                     <p className="text-lg mb-4">
-                      Founder & Lead Developer of Cozy Bee Games
+                      Founder &amp; Lead Developer of Cozy Bee Games
                     </p>
                     <p className="mb-4">
-                      With a passion for creating warm, inviting digital worlds, Eloise founded Cozy Bee Games to bring joy and relaxation to players around the globe. Her unique blend of technical expertise and artistic vision breathes life into every project.
+                      With a passion for creating warm, inviting digital worlds, Éloïse founded Cozy Bee Games to bring joy and relaxation to players around the globe. Her unique blend of technical expertise and artistic vision breathes life into every project.
                     </p>
                     <div className="flex space-x-4">
                       <a href="https://x.com/EloiseGameDev" target="_blank" rel="noopener noreferrer" className="text-[#5D4037] hover:text-[#8D6E63] transition-colors">
@@ -92,10 +92,10 @@ export default function AboutPage() {
             >
               <h2 className="text-3xl font-bold mb-6 text-[#8D6E63]">Our Story</h2>
               <p className="text-lg mb-6">
-                Cozy Bee Games was born from Eloise's desire to create games that feel like a warm hug. Inspired by her childhood memories of cozy afternoons spent playing video games, she set out to craft experiences that would bring that same sense of comfort and joy to others.
+                Cozy Bee Games was born from Éloïse&apos;s desire to create games that feel like a warm hug. Inspired by her childhood memories of cozy afternoons spent playing video games, she set out to craft experiences that would bring that same sense of comfort and joy to others.
               </p>
               <p className="text-lg mb-6">
-                What started as a solo passion project has grown into a beloved indie game studio, with a community of players who share Eloise's love for heartwarming, engaging gameplay. Each game is crafted with care, attention to detail, and a sprinkle of magic that makes Cozy Bee Games' titles truly special.
+                What started as a solo passion project has grown into a beloved indie game studio, with a community of players who share Éloïse&apos;s love for heartwarming, engaging gameplay. Each game is crafted with care, attention to detail, and a sprinkle of magic that makes Cozy Bee Games&apos; titles truly special.
               </p>
             </motion.div>
 
