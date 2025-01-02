@@ -1,7 +1,7 @@
 const isDev = false;
 
 const baseURL = isDev ? "http://localhost:3000" : "cozy-bee-games-xi.vercel.app";
-
+// https://cozy-bee-games-xi.vercel.app
 const games = [
   {
     id: 1,
