@@ -1,6 +1,6 @@
-const isDev = true;
+const isDev = false;
 
-const baseURL = isDev ? "http://localhost:3000" : "https://cozybeegames.com";
+const baseURL = isDev ? "http://localhost:3000" : "cozy-bee-games-xi.vercel.app";
 
 const games = [
   {
