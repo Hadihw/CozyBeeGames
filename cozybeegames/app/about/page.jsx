@@ -3,10 +3,10 @@
 import { useState, useEffect } from 'react'
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { Card, CardContent } from "@/components/ui/card"
-import Header from '../components/home/Header'
-import Footer from '../components/home/Footer'
-import ScrollToTopButton from '../components/ScrollToTopButton'
+import { Card, CardContent } from "../../components/ui/card"
+import Header from '../../components/home/Header'
+import Footer from '../../components/home/Footer'
+import ScrollToTopButton from '../../components/ScrollToTopButton'
 import { FaTwitter, FaInstagram } from 'react-icons/fa'
 
 export default function AboutPage() {
