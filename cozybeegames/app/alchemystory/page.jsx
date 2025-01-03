@@ -4,8 +4,8 @@ import { FaDiscord, FaFacebook, FaTwitter, FaInstagram, FaSteam } from "react-ic
 const alchemyStory = {
   title: "Alchemy Story",
   tagline: "Discover magic, adventure, and adorable creatures",
-  bannerImage: "/assets/images/AlchemyStory_HeaderCapsule_1280x720.png",
-  coverImage: "/assets/images/AlchemyStory_600x900.jpg",
+  bannerImage: "/assets/images/presskit/banners/AlchemyStory_HeaderCapsule_1280x720.png",
+  coverImage: "/assets/images/presskit/covers/AlchemyStory_600x900.jpg",
   developer: ["Cozy Bee Games", "Montreal, Canada"],
   publisher: ["Cozy Bee Games", "Montreal, Canada"],
   releaseDate: ["Available Now"],
@@ -31,39 +31,39 @@ const alchemyStory = {
   ],
   media: [
     {
-      src: "/assets/images/screenshots/alchemystory/AlchemyStory_Screenshot_01.png",
+      src: "/assets/images/presskit/screenshots/alchemystory/AlchemyStory_Screenshot_01.png",
       alt: "Alchemy Story screenshot #1",
     },
     {
-      src: "/assets/images/screenshots/alchemystory/AlchemyStory_Screenshot_02.png",
+      src: "/assets/images/presskit/screenshots/alchemystory/AlchemyStory_Screenshot_02.png",
       alt: "Alchemy Story screenshot #2",
     },
     {
-      src: "/assets/images/screenshots/alchemystory/AlchemyStory_Screenshot_03.png",
+      src: "/assets/images/presskit/screenshots/alchemystory/AlchemyStory_Screenshot_03.png",
       alt: "Alchemy Story screenshot #3",
     },
     {
-      src: "/assets/images/screenshots/alchemystory/AlchemyStory_Screenshot_04.png",
+      src: "/assets/images/presskit/screenshots/alchemystory/AlchemyStory_Screenshot_04.png",
       alt: "Alchemy Story screenshot #4",
     },
     {
-      src: "/assets/images/screenshots/alchemystory/Garden.png",
+      src: "/assets/images/presskit/screenshots/alchemystory/Garden.png",
       alt: "A garden scene from Alchemy Story",
     },
     {
-      src: "/assets/images/screenshots/alchemystory/Gopher.png",
+      src: "/assets/images/presskit/screenshots/alchemystory/Gopher.png",
       alt: "A gopher character in Alchemy Story",
     },
     {
-      src: "/assets/images/screenshots/alchemystory/Mailbox.png",
+      src: "/assets/images/presskit/screenshots/alchemystory/Mailbox.png",
       alt: "A mailbox in Alchemy Story",
     },
     {
-      src: "/assets/images/screenshots/alchemystory/Owl.png",
+      src: "/assets/images/presskit/screenshots/alchemystory/Owl.png",
       alt: "An owl in Alchemy Story",
     },
     {
-      src: "/assets/images/screenshots/alchemystory/Pond.png",
+      src: "/assets/images/presskit/screenshots/alchemystory/Pond.png",
       alt: "A pond in Alchemy Story",
     },
   ],

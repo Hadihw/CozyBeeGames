@@ -4,8 +4,8 @@ import { FaDiscord, FaFacebook, FaTwitter, FaInstagram, FaSteam } from "react-ic
 const capybaraSpa = {
   title: "Capybara Spa",
   tagline: "Build and manage your own capybara spa",
-  bannerImage: "/assets/images/CapybaraSpa_HeaderCapsule_1280x720.png",
-  coverImage: "/assets/images/Logo_CapybaraSpa_LibraryCapsule_600x900.png",
+  bannerImage: "/assets/images/presskit/banners/CapybaraSpa_HeaderCapsule_1280x720.png",
+  coverImage: "/assets/images/presskit/covers/Logo_CapybaraSpa_LibraryCapsule_600x900.png",
   developer: ["Cozy Bee Games", "Montreal, Canada"],
   publisher: ["Cozy Bee Games", "Montreal, Canada"],
   releaseDate: ["Available Now"],
@@ -31,27 +31,27 @@ const capybaraSpa = {
   ],
   media: [
     {
-      src: "/assets/images/screenshots/capybaraspa/Screenshot_Friends.png",
+      src: "/assets/images/presskit/screenshots/capybaraspa/Screenshot_Friends.png",
       alt: "Capybara Spa screenshot with friends",
     },
     {
-      src: "/assets/images/screenshots/capybaraspa/Screenshot_Full.png",
+      src: "/assets/images/presskit/screenshots/capybaraspa/Screenshot_Full.png",
       alt: "Capybara Spa screenshot showing the full spa layout",
     },
     {
-      src: "/assets/images/screenshots/capybaraspa/Screenshot_Furniture.png",
+      src: "/assets/images/presskit/screenshots/capybaraspa/Screenshot_Furniture.png",
       alt: "Capybara Spa screenshot featuring furniture items",
     },
     {
-      src: "/assets/images/screenshots/capybaraspa/Screenshot_Parachute.png",
+      src: "/assets/images/presskit/screenshots/capybaraspa/Screenshot_Parachute.png",
       alt: "Capybara Spa screenshot with a parachuting capybara",
     },
     {
-      src: "/assets/images/screenshots/capybaraspa/Screenshot_Snack.png",
+      src: "/assets/images/presskit/screenshots/capybaraspa/Screenshot_Snack.png",
       alt: "Capybara Spa screenshot showing a snack break",
     },
     {
-      src: "/assets/images/screenshots/capybaraspa/Screenshot_Start.png",
+      src: "/assets/images/presskit/screenshots/capybaraspa/Screenshot_Start.png",
       alt: "Capybara Spa screenshot from the start of the game",
     },
   ],

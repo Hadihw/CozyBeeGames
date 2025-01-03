@@ -4,8 +4,8 @@ import { FaDiscord, FaFacebook, FaTwitter, FaInstagram, FaSteam } from "react-ic
 const lemonCake = {
   title: "Lemon Cake",
   tagline: "Restore an abandoned bakery in a cozy simulation game",
-  bannerImage: "/assets/images/LemonCake_HeaderCapsule_1280x720.png",
-  coverImage: "/assets/images/LemonCake_LibraryCapsule_600x900.png",
+  bannerImage: "/assets/images/presskit/banners/LemonCake_HeaderCapsule_1280x720.png",
+  coverImage: "/assets/images/presskit/covers/LemonCake_LibraryCapsule_600x900.png",
   developer: ["Cozy Bee Games", "Montreal, Canada"],
   publisher: ["Cozy Bee Games", "Montreal, Canada"],
   releaseDate: ["Available Now"],
@@ -31,39 +31,39 @@ const lemonCake = {
   ],
   media: [
     {
-      src: "/assets/images/screenshots/lemoncake/Character.png",
+      src: "/assets/images/presskit/screenshots/lemoncake/Character.png",
       alt: "Lemon Cake screenshot featuring the player character",
     },
     {
-      src: "/assets/images/screenshots/lemoncake/Chickens.png",
+      src: "/assets/images/presskit/screenshots/lemoncake/Chickens.png",
       alt: "Lemon Cake screenshot with chickens in the bakery’s yard",
     },
     {
-      src: "/assets/images/screenshots/lemoncake/Mixing.png",
+      src: "/assets/images/presskit/screenshots/lemoncake/Mixing.png",
       alt: "Lemon Cake screenshot showing the mixing process",
     },
     {
-      src: "/assets/images/screenshots/lemoncake/Night.png",
+      src: "/assets/images/presskit/screenshots/lemoncake/Night.png",
       alt: "Lemon Cake screenshot at night",
     },
     {
-      src: "/assets/images/screenshots/lemoncake/PetCat.png",
+      src: "/assets/images/presskit/screenshots/lemoncake/PetCat.png",
       alt: "Lemon Cake screenshot showing the bakery’s pet cat",
     },
     {
-      src: "/assets/images/screenshots/lemoncake/RecipeBook.png",
+      src: "/assets/images/presskit/screenshots/lemoncake/RecipeBook.png",
       alt: "Lemon Cake screenshot of the recipe book interface",
     },
     {
-      src: "/assets/images/screenshots/lemoncake/serving.png",
+      src: "/assets/images/presskit/screenshots/lemoncake/serving.png",
       alt: "Lemon Cake screenshot of serving pastries",
     },
     {
-      src: "/assets/images/screenshots/lemoncake/SkillTree.png",
+      src: "/assets/images/presskit/screenshots/lemoncake/SkillTree.png",
       alt: "Lemon Cake screenshot of the skill tree",
     },
     {
-      src: "/assets/images/screenshots/lemoncake/Sweeping.png",
+      src: "/assets/images/presskit/screenshots/lemoncake/Sweeping.png",
       alt: "Lemon Cake screenshot showing the sweeping mechanic",
     },
   ],

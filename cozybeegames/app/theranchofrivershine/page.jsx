@@ -4,8 +4,8 @@ import { FaDiscord, FaFacebook, FaTwitter, FaInstagram, FaSteam } from "react-ic
 const ranchOfRivershine = {
   title: "The Ranch of Rivershine",
   tagline: "A cozy farming and ranch simulation game",
-  bannerImage: "/assets/images/SteamLogo_Rivershine_Text_1280x720.png",
-  coverImage: "/assets/images/Rivershine_LibraryCapsule_600x900.png",
+  bannerImage: "/assets/images/presskit/banners/SteamLogo_Rivershine_Text_1280x720.png",
+  coverImage: "/assets/images/presskit/covers/Rivershine_LibraryCapsule_600x900.png",
   developer: ["Cozy Bee Games", "Montreal, Canada"],
   publisher: ["Cozy Bee Games", "Montreal, Canada"],
   releaseDate: ["Coming Soon"],
@@ -31,39 +31,39 @@ const ranchOfRivershine = {
   ],
   media: [
     {
-      src: "/assets/images/screenshots/rivershine/SteamScreenshot_ArenaJump.png",
+      src: "/assets/images/presskit/screenshots/rivershine/SteamScreenshot_ArenaJump.png",
       alt: "Screenshot of an arena jumping scene",
     },
     {
-      src: "/assets/images/screenshots/rivershine/SteamScreenshot_Breeding.png",
+      src: "/assets/images/presskit/screenshots/rivershine/SteamScreenshot_Breeding.png",
       alt: "Screenshot of the horse breeding interface",
     },
     {
-      src: "/assets/images/screenshots/rivershine/SteamScreenshot_CrossCountry.png",
+      src: "/assets/images/presskit/screenshots/rivershine/SteamScreenshot_CrossCountry.png",
       alt: "Screenshot of a cross-country race",
     },
     {
-      src: "/assets/images/screenshots/rivershine/SteamScreenshot_FoalBrush.png",
+      src: "/assets/images/presskit/screenshots/rivershine/SteamScreenshot_FoalBrush.png",
       alt: "Screenshot of grooming a foal",
     },
     {
-      src: "/assets/images/screenshots/rivershine/SteamScreenshot_HorseWalk.png",
+      src: "/assets/images/presskit/screenshots/rivershine/SteamScreenshot_HorseWalk.png",
       alt: "Screenshot of walking a horse",
     },
     {
-      src: "/assets/images/screenshots/rivershine/SteamScreenshot_NPCShop.png",
+      src: "/assets/images/presskit/screenshots/rivershine/SteamScreenshot_NPCShop.png",
       alt: "Screenshot of an NPC shop interface",
     },
     {
-      src: "/assets/images/screenshots/rivershine/SteamScreenshot_NPCTalk.png",
+      src: "/assets/images/presskit/screenshots/rivershine/SteamScreenshot_NPCTalk.png",
       alt: "Screenshot of talking to an NPC",
     },
     {
-      src: "/assets/images/screenshots/rivershine/SteamScreenshot_StallEquipment.png",
+      src: "/assets/images/presskit/screenshots/rivershine/SteamScreenshot_StallEquipment.png",
       alt: "Screenshot of stall equipment",
     },
     {
-      src: "/assets/images/screenshots/rivershine/SteamScreenshot_StallMuck.png",
+      src: "/assets/images/presskit/screenshots/rivershine/SteamScreenshot_StallMuck.png",
       alt: "Screenshot of mucking a stall",
     },
   ],

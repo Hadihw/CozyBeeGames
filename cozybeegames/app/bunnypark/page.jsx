@@ -4,8 +4,8 @@ import { FaDiscord, FaFacebook, FaTwitter, FaInstagram, FaSteam } from "react-ic
 const bunnyPark = {
   title: "Bunny Park",
   tagline: "Manage and decorate your own bunny park",
-  bannerImage: "/assets/images/BunnyPark_HeaderCapsule_1280x720.png",
-  coverImage: "/assets/images/BunnyPark_LibraryCapsule_600x900.png",
+  bannerImage: "/assets/images/presskit/banners/BunnyPark_HeaderCapsule_1280x720.png",
+  coverImage: "/assets/images/presskit/covers/BunnyPark_LibraryCapsule_600x900.png",
   developer: ["Cozy Bee Games", "Montreal, Canada"],
   publisher: ["Cozy Bee Games", "Montreal, Canada"],
   releaseDate: ["Available Now"],
@@ -31,31 +31,31 @@ const bunnyPark = {
   ],
   media: [
     {
-      src: "/assets/images/screenshots/bunnypark/BunnyPark_Screenshot_DecoMove.png",
+      src: "/assets/images/presskit/screenshots/bunnypark/BunnyPark_Screenshot_DecoMove.png",
       alt: "Bunny Park screenshot showing decoration movement",
     },
     {
-      src: "/assets/images/screenshots/bunnypark/BunnyPark_Screenshot_DecoShop.png",
+      src: "/assets/images/presskit/screenshots/bunnypark/BunnyPark_Screenshot_DecoShop.png",
       alt: "Bunny Park screenshot showing the decoration shop",
     },
     {
-      src: "/assets/images/screenshots/bunnypark/BunnyPark_Screenshot_Garden.png",
+      src: "/assets/images/presskit/screenshots/bunnypark/BunnyPark_Screenshot_Garden.png",
       alt: "Bunny Park screenshot of a garden area",
     },
     {
-      src: "/assets/images/screenshots/bunnypark/BunnyPark_Screenshot_Late.png",
+      src: "/assets/images/presskit/screenshots/bunnypark/BunnyPark_Screenshot_Late.png",
       alt: "Bunny Park screenshot from later in the game",
     },
     {
-      src: "/assets/images/screenshots/bunnypark/BunnyPark_Screenshot_Pet.png",
+      src: "/assets/images/presskit/screenshots/bunnypark/BunnyPark_Screenshot_Pet.png",
       alt: "Bunny Park screenshot featuring a pet interaction",
     },
     {
-      src: "/assets/images/screenshots/bunnypark/BunnyPark_Screenshot_Start.png",
+      src: "/assets/images/presskit/screenshots/bunnypark/BunnyPark_Screenshot_Start.png",
       alt: "Bunny Park screenshot from the start of the game",
     },
     {
-      src: "/assets/images/screenshots/bunnypark/BunnyPark_Screenshot_Swing.png",
+      src: "/assets/images/presskit/screenshots/bunnypark/BunnyPark_Screenshot_Swing.png",
       alt: "Bunny Park screenshot featuring a swing",
     },
   ],
