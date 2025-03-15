@@ -7,7 +7,7 @@ import { Card, CardContent } from "../../components/ui/card"
 import Header from '../../components/home/Header'
 import Footer from '../../components/home/Footer'
 import ScrollToTopButton from '../../components/ScrollToTopButton'
-import { FaTwitter, FaInstagram } from 'react-icons/fa'
+import { FaTwitter, FaInstagram, FaYoutube, FaDiscord, FaSteam } from 'react-icons/fa'
 
 export default function AboutPage() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -57,7 +57,7 @@ export default function AboutPage() {
                 <CardContent className="p-6 md:p-8 flex flex-col md:flex-row items-center">
                   <div className="md:w-1/3 mb-6 md:mb-0 md:mr-8">
                     <Image
-                      src="/assets/images/about/eloise-laroche.jpg"
+                      src="/assets/images/about/eloise-laroche.png"
                       alt="Éloïse Laroche"
                       width={300}
                       height={300}
@@ -78,6 +78,15 @@ export default function AboutPage() {
                       </a>
                       <a href="https://www.instagram.com/eloisegamedev/" target="_blank" rel="noopener noreferrer" className="text-[#5D4037] hover:text-[#8D6E63] transition-colors">
                         <FaInstagram className="text-2xl" />
+                      </a>
+                      <a href="https://www.youtube.com/@CozyBeeGames" target="_blank" rel="noopener noreferrer" className="text-[#5D4037] hover:text-[#8D6E63] transition-colors">
+                        <FaYoutube className="text-2xl" />
+                      </a>
+                      <a href="https://discord.gg/xkvfprt" target="_blank" rel="noopener noreferrer" className="text-[#5D4037] hover:text-[#8D6E63] transition-colors">
+                        <FaDiscord className="text-2xl" />
+                      </a>
+                      <a href="https://store.steampowered.com/developer/cozybeegames/" target="_blank" rel="noopener noreferrer" className="text-[#5D4037] hover:text-[#8D6E63] transition-colors">
+                        <FaSteam className="text-2xl" />
                       </a>
                     </div>
                   </div>

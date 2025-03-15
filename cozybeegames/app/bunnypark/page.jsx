@@ -1,33 +1,27 @@
 import PressKit from "@/components/PressKit";
-import { FaDiscord, FaFacebook, FaTwitter, FaInstagram, FaSteam } from "react-icons/fa";
+import { FaSteam } from "react-icons/fa";
 
 const bunnyPark = {
   title: "Bunny Park",
-  tagline: "Manage and decorate your own bunny park",
   bannerImage: "/assets/images/presskit/banners/BunnyPark_HeaderCapsule_1280x720.png",
   coverImage: "/assets/images/presskit/covers/BunnyPark_LibraryCapsule_600x900.png",
-  developer: ["Cozy Bee Games", "Montreal, Canada"],
-  publisher: ["Cozy Bee Games", "Montreal, Canada"],
-  releaseDate: ["Available Now"],
-  price: "$9.99",
-  pressContact: "press@cozybee.games",
+  
+  releaseDate: ["January 14th, 2020"],
+  price: "$4.99",
   platforms: [
-    { icon: <FaSteam />, label: "Steam" },
-  ],
-  socialMedia: [
-    { icon: <FaTwitter />, label: "Twitter" },
-    { icon: <FaDiscord />, label: "Discord" },
-    { icon: <FaFacebook />, label: "Facebook" },
-    { icon: <FaInstagram />, label: "Instagram" },
+    {
+      icon: <FaSteam />,
+      label: "Steam",
+      link: "https://store.steampowered.com/app/1208600/Bunny_Park/?curator_clanid=36314378"
+    },
   ],
   about:
-    "Bunny Park is a wholesome park management game. Create a cozy space for bunnies, feed them, and collect all the adorable bunnies while designing a beautiful park.",
+    "Manage your own bunny park! Give snacks and toys to your bunnies. Improve and decorate your park to increase its popularity and collect all the bunnies!",
   features: [
-    "Build and decorate a park for bunnies",
-    "Feed and care for adorable bunny visitors",
-    "Collect unique bunnies and earn rewards",
-    "Design a cozy and relaxing environment",
-    "Perfect for fans of casual and wholesome games",
+    "Build and decorate your own nature park. Choose from a range of different decorations and toys to create a charming park!",
+    "Care for your bunnies with snacks and pets. Be sure to pet your bunnies to keep them happy... But don't wake them up!",
+    "Create a popular, cozy and cute park. Expand your park and increase its rating to attract new bunnies!",
+    "Complete your bunny collection. Bring all the bunnies home, each with their own pattern and personality!",
   ],
   media: [
     {
@@ -58,6 +52,15 @@ const bunnyPark = {
       src: "/assets/images/presskit/screenshots/bunnypark/BunnyPark_Screenshot_Swing.png",
       alt: "Bunny Park screenshot featuring a swing",
     },
+    {
+      src: "/assets/images/presskit/screenshots/bunnypark/BunnyPark_FullLogo_1920x1080.png",
+      alt: "Bunny Park screenshot featuring the full logo",
+    },
+    {
+      src: "/assets/images/presskit/screenshots/bunnypark/BunnyPark_LibraryLogo_640x360.png",
+      alt: "Bunny Park screenshot featuring the library logo",
+    },
+    
   ],
 };
 

@@ -19,7 +19,6 @@ import ScrollToTopButton from '../components/ScrollToTopButton'
 import Header from '../components/home/Header'
 import Footer from '../components/home/Footer'
 
-// Your "games" array
 import games from '../lib/games'
 
 
@@ -46,13 +45,13 @@ function TrailerModal({ isOpen, onClose }) {
   if (!isOpen) return null
 
   return (
-    <div className="fixed inset-0 z-[9999] bg-black bg-opacity-80 pointer-events-auto">
+    <div className="fixed inset-0 z-[9999] bg-black bg-opacity-80 pointer-events-auto" onClick={onClose}>
       {/* Close button on the black overlay */}
       <button
         onClick={onClose}
         className="absolute top-4 right-4 text-white hover:scale-110 transition-transform"
       >
-        <X size={30} />
+        <X className="h-5 w-5" />
       </button>
 
       {/* Center the video container */}

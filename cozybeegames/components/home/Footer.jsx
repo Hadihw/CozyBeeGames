@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Twitter, Youtube } from 'lucide-react';
-import { FaSteam, FaInstagram } from 'react-icons/fa';
+import { FaSteam, FaInstagram, FaDiscord } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -27,13 +27,6 @@ function Footer() {
             >
               <Twitter className="h-6 w-6" />
             </Link>
-            <Link
-              href="https://www.youtube.com/@CozyBeeGames"
-              className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
-              aria-label="YouTube"
-            >
-              <Youtube className="h-6 w-6" />
-            </Link>
 
             <Link
               href="https://www.instagram.com/eloisegamedev/"
@@ -42,6 +35,24 @@ function Footer() {
               aria-label="Instagram"
             >
               <FaInstagram className="h-6 w-6" />
+            </Link>
+
+            
+            <Link
+              href="https://www.youtube.com/@CozyBeeGames"
+              target="_blank"
+              className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
+              aria-label="YouTube"
+            >
+              <Youtube className="h-6 w-6" />
+            </Link>
+            <Link
+              href="https://discord.gg/xkvfprt"
+              target="_blank"
+              className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
+              aria-label="Discord"
+            >
+              <FaDiscord className="h-6 w-6" />
             </Link>
 
             <Link
