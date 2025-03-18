@@ -13,10 +13,6 @@ import ScrollToTopButton from "@/components/ScrollToTopButton"
 // Icons used for universal social media links
 import { FaDiscord, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa"
 
-// Add this at the top of your file with the other imports
-// to support the subtle bounce animation for the download button
-import { keyframes } from "@emotion/react"
-
 /**
  * UNIVERSAL DATA
  * ---------------------------------------------------
