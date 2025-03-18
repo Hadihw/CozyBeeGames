@@ -4,7 +4,7 @@ import { FaSteam } from "react-icons/fa";
 const ranchOfRivershine = {
   title: "The Ranch of Rivershine",
   bannerImage: "/assets/images/presskit/banners/SteamLogo_Rivershine_Text_1280x720.png",
-  coverImage: "/assets/images/presskit/covers/Rivershine_LibraryCapsule_600x900.png",
+  coverImage: "/assets/images/presskit/covers/SteamLogo_Rivershine_LibraryCapsule_600x900.png",
   // developer, publisher, pressContact REMOVED - now universal in PressKit.jsx
   releaseDate: ["May 12th, 2023"],
   price: "$29.99",
