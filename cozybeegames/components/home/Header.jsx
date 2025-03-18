@@ -74,7 +74,7 @@ function Header() {
           <Link
             href="/#featured-games"
             onClick={handleGamesLinkClick}
-            className="text-[#5D4037] font-serif text-lg relative group"
+            className="text-[#5D4037] font-serif text-xl relative group"
           >
             <span>Games</span>
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-[#5D4037] transition-all duration-300 group-hover:w-full" />
@@ -83,7 +83,7 @@ function Header() {
           <Link
             href="/about"
             onClick={() => setIsMenuOpen(false)}
-            className="text-[#5D4037] font-serif text-lg relative group"
+            className="text-[#5D4037] font-serif text-xl relative group"
           >
             <span>About</span>
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-[#5D4037] transition-all duration-300 group-hover:w-full" />
@@ -92,7 +92,7 @@ function Header() {
           <Link
             href="/contact"
             onClick={() => setIsMenuOpen(false)}
-            className="text-[#5D4037] font-serif text-lg relative group"
+            className="text-[#5D4037] font-serif text-xl relative group" 
           >
             <span>Contact</span>
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-[#5D4037] transition-all duration-300 group-hover:w-full" />
@@ -102,7 +102,7 @@ function Header() {
         {/* Actions */}
         <div className="flex items-center space-x-4">
           <Button
-            className="bg-[#8D6E63] text-white font-serif hover:bg-[#6D4C41] transition-all duration-300"
+            className="bg-[#8D6E63] text-white font-serif hover:bg-[#6D4C41] transition-all duration-300 text-lg"
             onClick={() =>
               window.open("https://store.steampowered.com/developer/cozybeegames/", "_blank")
             }

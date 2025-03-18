@@ -25,7 +25,7 @@ function Footer() {
               className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
               aria-label="Twitter"
             >
-              <Twitter className="h-6 w-6" />
+              <Twitter className="h-8 w-8" />
             </Link>
 
             <Link
@@ -34,7 +34,7 @@ function Footer() {
               className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
               aria-label="Instagram"
             >
-              <FaInstagram className="h-6 w-6" />
+              <FaInstagram className="h-8 w-8" />
             </Link>
 
             
@@ -44,7 +44,7 @@ function Footer() {
               className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
               aria-label="YouTube"
             >
-              <Youtube className="h-6 w-6" />
+              <Youtube className="h-8 w-8" />
             </Link>
             <Link
               href="https://discord.gg/xkvfprt"
@@ -52,7 +52,7 @@ function Footer() {
               className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
               aria-label="Discord"
             >
-              <FaDiscord className="h-6 w-6" />
+              <FaDiscord className="h-8 w-8" />
             </Link>
 
             <Link
@@ -61,7 +61,7 @@ function Footer() {
               className="hover:text-[#6D4C41] transition-colors hover:scale-125 transform"
               aria-label="Steam"
             >
-              <FaSteam className="h-6 w-6" />
+              <FaSteam className="h-8 w-8" />
             </Link>
           </div>
         </div>

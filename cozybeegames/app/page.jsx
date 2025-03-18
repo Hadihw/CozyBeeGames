@@ -170,7 +170,7 @@ function Slideshow({ openTrailer }) {
             {/* Watch Trailer -> triggers parent's openTrailer() */}
             <Button
               size="lg"
-              className="bg-white/10 font-serif backdrop-blur-sm hover:bg-white/30 text-white border-2 border-white/50 group"
+              className="bg-white/10 font-serif backdrop-blur-sm hover:bg-white/30 text-white border-2 border-white/50 group text-lg"
               onClick={openTrailer}
             >
               <Play className="mr-2 h-5 w-5" />
@@ -180,7 +180,7 @@ function Slideshow({ openTrailer }) {
             {/* Play Now -> opens Steam link */}
             <Button
               size="lg"
-              className="bg-[#5C4033] hover:bg-[#5C4033]/90 font-serif hover:scale-105"
+              className="bg-[#5C4033] hover:bg-[#5C4033]/90 font-serif hover:scale-105 text-lg"
               onClick={() =>
                 window.open(
                   'https://store.steampowered.com/app/1559600/The_Ranch_of_Rivershine/?curator_clanid=36314378',
@@ -248,10 +248,10 @@ function FeaturedGames() {
                 </div>
                 {/* Game Info */}
                 <CardContent className="p-4 sm:p-6 flex flex-col flex-grow">
-                  <h3 className="text-4xl sm:text-4xl font-dongle text-[#4A2B1B]">
+                  <h3 className="text-3xl sm:text-3xl text-[#4A2B1B]">
                     {game.title}
                   </h3>
-                  <p className="mb-4 text-[#6D3A25] line-clamp-2 flex-grow">
+                 <p className="mb-4 mt-4 text-[#6D3A25] text-3xl font-dongle line-clamp-2 flex-grow leading-none">
                     {game.description}
                   </p>
                   <div className="flex gap-3 mt-auto">
@@ -272,7 +272,7 @@ function FeaturedGames() {
                           className="w-full h-10 border-[#5C4033] text-[#5C4033] hover:bg-[#5C4033] hover:text-[#FFFAF5] transition-all duration-300 group"
                         >
                           <Download className="mr-2 h-4 w-4" />
-                          <span className="hidden sm:inline font-bold font-serif">
+                          <span className="hidden sm:inline font-bold text-lg font-serif">
                             Press Kit
                           </span>
                           <span className="sm:hidden font-bold font-serif">
@@ -297,8 +297,8 @@ function FeaturedGames() {
                         <Button
                           className="w-full h-10 bg-[#5C4033] font-serif hover:bg-[#5C4033]/90 transition-all duration-300 group"
                         >
-                          <Play className="mr-2 h-4 w-4" />
-                          <span className="hidden sm:inline font-serif">
+                          <Play className="mr-2 h-4 w-4 font-bold" />
+                          <span className="hidden sm:inline font-serif text-lg">
                             Play Now
                           </span>
                           <span className="sm:hidden font-serif">
@@ -334,12 +334,11 @@ function JoinOurNewsletter() {
   return (
     <section className="relative overflow-hidden bg-white p-8 rounded-3xl shadow-lg border-2 border-[#5C4033]">
       <div className="relative z-10">
-        <h2 className="text-3xl font-bold mb-4 text-[#5C4033] font-serif">
+        <h2 className="text-3xl font-bold mb-4 text-[#5C4033] font-serif text-center">
           Join Our Newsletter
         </h2>
-        <p className="mb-6 text-lg text-[#5C4033] max-w-2xl mx-auto">
-          Stay updated with the latest buzz! Get exclusive game updates,
-          behind-the-scenes content, and sweet deals delivered right to your inbox.
+        <p className="mb-6 text-3xl leading-none font-dongle text-[#6D3A25] max-w-2xl mx-auto text-center">
+        Join our newsletter to be notified when Cozy Bee Games releases a new game!
         </p>
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
           <Input
@@ -352,7 +351,7 @@ function JoinOurNewsletter() {
           />
           <Button
             type="submit"
-            className="bg-[#5C4033] text-white hover:bg-[#4A2B1B] transition-all duration-300 font-serif"
+            className="bg-[#5C4033] text-lg text-white hover:bg-[#4A2B1B] transition-all duration-300 font-serif"
           >
             <Mail className="mr-2 h-5 w-5" />
             Subscribe

@@ -20,30 +20,33 @@ export default function AboutPage() {
     <div className="min-h-screen bg-[#FFFAF5] text-[#5D4037] font-serif">
       <Header />
       <main className="pt-[68px]">
-        <div className="relative bg-gradient-to-b from-[#F0E6D2] to-[#FFFAF5] py-24">
+        <div className="relative bg-gradient-to-b from-[#F0E6D2] to-[#FFFAF5] pt-20">
           <div className="absolute inset-0 opacity-10"></div>
           <div className="container mx-auto px-4 relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-center"
+              className="text-center flex flex-col items-center relative"
             >
               <h1 className="text-5xl md:text-6xl font-bold text-[#5D4037] mb-4 drop-shadow-lg">
                 Meet the Developer
               </h1>
-              <p className="text-xl md:text-2xl text-[#8D6E63] max-w-2xl mx-auto italic">
+              <p className="text-xl md:text-2xl text-[#8D6E63] max-w-2xl mx-auto italic relative z-10">
                 The heart and soul behind Cozy Bee Games
               </p>
+
+              {/* Bee Image - now visible on all screen sizes and aligned properly */}
+              <div className="absolute top-[calc(100%+10px)] right-[10%] sm:right-[12%] md:right-[15%] lg:right-[18%]">
+                <Image
+                  src="/assets/images/bee-flying.png"
+                  alt="Flying bee"
+                  width={100}
+                  height={100}
+                />
+              </div>
             </motion.div>
           </div>
-          <Image
-            src="/assets/images/bee-flying.png"
-            alt="Flying bee"
-            width={100}
-            height={100}
-            className="absolute bottom-0 right-0 transform translate-y-1/2"
-          />
         </div>
 
         <div className="container mx-auto px-4 py-12">
@@ -65,11 +68,11 @@ export default function AboutPage() {
                     />
                   </div>
                   <div className="md:w-2/3">
-                    <h2 className="text-3xl font-bold mb-4 text-[#8D6E63]">Éloïse Laroche</h2>
-                    <p className="text-lg mb-4">
+                    <h2 className="text-3xl font-bold mb-4 text-[#4A2B1B]">Éloïse Laroche</h2>
+                    <p className="text-3xl font-dongle mb-4 text-[#4A2B1B] italic">
                       Founder &amp; Lead Developer of Cozy Bee Games
                     </p>
-                    <p className="mb-4">
+                    <p className="mb-4 font-dongle text-3xl text-[#6D3A25]">
                       With a passion for creating warm, inviting digital worlds, Éloïse founded Cozy Bee Games to bring joy and relaxation to players around the globe. Her unique blend of technical expertise and artistic vision breathes life into every project.
                     </p>
                     <div className="flex space-x-4">
@@ -99,12 +102,12 @@ export default function AboutPage() {
               animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 20 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              <h2 className="text-3xl font-bold mb-6 text-[#8D6E63]">Our Story</h2>
-              <p className="text-lg mb-6">
-                Cozy Bee Games was born from Éloïse&apos;s desire to create games that feel like a warm hug. Inspired by her childhood memories of cozy afternoons spent playing video games, she set out to craft experiences that would bring that same sense of comfort and joy to others.
+              <h2 className="text-3xl font-bold mb-6 text-[#4A2B1B]">Our Story</h2>
+              <p className="mb-6 font-dongle text-3xl text-[#6D3A25]">
+                Cozy Bee Games was founded by Éloïse in 2021 in Quebec, Canada. What began as a one-woman venture, fueled by creativity and a desire to share meaningful, calming experiences, has since grown into a vibrant studio. From its humble roots, Cozy Bee Games has evolved into a space where passion for cozy, thoughtful gameplay and innovation come together.
               </p>
-              <p className="text-lg mb-6">
-                What started as a solo passion project has grown into a beloved indie game studio, with a community of players who share Éloïse&apos;s love for heartwarming, engaging gameplay. Each game is crafted with care, attention to detail, and a sprinkle of magic that makes Cozy Bee Games&apos; titles truly special.
+              <p className="mb-6 font-dongle text-[#6D3A25] text-3xl">
+                Join us on our journey as we continue to evolve, create, and inspire, one cozy game at a time!
               </p>
             </motion.div>
 
@@ -113,20 +116,13 @@ export default function AboutPage() {
               animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 20 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <h2 className="text-3xl font-bold mb-6 text-[#8D6E63]">Our Mission</h2>
-              <p className="text-lg mb-6">
-                At Cozy Bee Games, our mission is to create digital sanctuaries where players can find comfort, joy, and a sense of belonging. We believe in the power of games to soothe, inspire, and connect people, and we pour this belief into every pixel of our work.
+              <h2 className="text-3xl font-bold mb-6 text-[#4A2B1B]">Our Mission</h2>
+              <p className="mb-6 font-dongle text-3xl">
+                At Cozy Bee Games, we are passionate about fostering creativity, curiosity, and innovation in every project we undertake. As a women-led company, we’re committed to creating a more inclusive and supportive space for women in the gaming world.
               </p>
-              <p className="text-lg mb-6">
-                Through our games, we aim to:
+              <p className="mb-6 font-dongle text-3xl">
+                We focus on innovating within the wholesome and cozy game genres, crafting experiences that offer players a peaceful escape from the stresses of daily life. Our goal is to build a positive, welcoming community that encourages creativity and meaningful conversations, while providing players with a restful experience.
               </p>
-              <ul className="list-disc list-inside text-lg mb-6 space-y-2">
-                <li>Provide a respite from the stresses of everyday life</li>
-                <li>Foster a sense of community among our players</li>
-                <li>Encourage creativity and self-expression</li>
-                <li>Promote mindfulness and relaxation</li>
-                <li>Spread joy, one cozy game at a time</li>
-              </ul>
             </motion.div>
           </div>
         </div>
@@ -136,4 +132,3 @@ export default function AboutPage() {
     </div>
   )
 }
-

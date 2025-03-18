@@ -42,30 +42,33 @@ export default function ContactPage() {
     <div className="min-h-screen bg-[#FFFAF5] text-[#5D4037] font-serif">
       <Header />
       <main className="pt-[68px]">
-        <div className="relative bg-gradient-to-b from-[#F0E6D2] to-[#FFFAF5] py-24">
+        <div className="relative bg-gradient-to-b from-[#F0E6D2] to-[#FFFAF5] pt-20">
           <div className="absolute inset-0 opacity-10"></div>
           <div className="container mx-auto px-4 relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-center"
+              className="text-center flex flex-col items-center relative"
             >
               <h1 className="text-5xl md:text-6xl font-bold text-[#5D4037] mb-4 drop-shadow-lg">
                 Get in Touch
               </h1>
-              <p className="text-xl md:text-2xl text-[#8D6E63] max-w-2xl mx-auto italic">
+              <p className="text-xl md:text-2xl text-[#8D6E63] max-w-2xl mx-auto italic relative z-10">
                 We&apos;d love to hear from you!
               </p>
+
+              {/* Bee Image - Now positioned correctly below the subtitle */}
+              <div className="absolute top-[calc(100%+10px)] right-[10%] sm:right-[12%] md:right-[15%] lg:right-[18%]">
+                <Image
+                  src="/assets/images/bee-flying.png"
+                  alt="Flying bee"
+                  width={100}
+                  height={100}
+                />
+              </div>
             </motion.div>
           </div>
-          <Image
-            src="/assets/images/bee-flying.png"
-            alt="Flying bee"
-            width={100}
-            height={100}
-            className="absolute bottom-0 right-0 transform translate-y-1/2"
-          />
         </div>
 
         <div className="container mx-auto px-4 py-12">
@@ -141,4 +144,3 @@ export default function ContactPage() {
     </div>
   )
 }
-

@@ -29,7 +29,6 @@ const UNIVERSAL_SOCIAL_MEDIA = [
   { icon: <FaDiscord />, label: "Discord", link: "https://discord.gg/xkvfprt" },
 ]
 
-
 /**
  * The main PressKit component. Pass in a "game" object as a prop.
  */
@@ -44,19 +43,8 @@ export default function PressKit({ game }) {
     <div className="min-h-screen bg-[#FFFAF5] text-[#5D4037] font-serif">
       <Header />
       <main className="pt-[68px]">
-        {/* Banner */}
-        <div className="relative h-48 sm:h-64 overflow-hidden">
-          <Image
-            src={game.bannerImage || "/placeholder.svg"}
-            alt={`${game.title} Banner`}
-            layout="fill"
-            objectFit="cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-black bg-opacity-30" />
-        </div>
-
-        {/* Content */}
+        {/* Removed the banner entirely, so the top padding is just from the header above. */}
+        
         <motion.div
           className="container mx-auto px-4 py-8 md:py-12 max-w-6xl"
           initial={{ opacity: 0 }}
@@ -72,7 +60,7 @@ export default function PressKit({ game }) {
               className="w-full sm:w-1/3 space-y-6 mb-8 sm:mb-0"
             >
               {/* Cover image with drop-shadow */}
-              <div className="relative flex flex-col justify-center items-center w-full max-w-xs mx-auto sm:mx-0 -mt-24 sm:-mt-40 mb-6">
+              <div className="relative flex flex-col justify-center items-center w-full max-w-xs mx-auto sm:mx-0 mb-6">
                 <div className="aspect-[2/3] relative z-10 w-full border-2 border-[#5C4033] rounded-lg overflow-hidden">
                   <Image
                     src={game.coverImage || "/placeholder.svg"}
@@ -93,7 +81,6 @@ export default function PressKit({ game }) {
               {/* Factsheet card */}
               <Card className="bg-white shadow-md w-full sm:max-w-xs">
                 <CardContent className="p-6 space-y-6">
-                  {/* Developer, Publisher, Press Contact are universal now */}
                   <FactsheetItem title="Developer" content={DEVELOPER} />
                   <FactsheetItem title="Publisher" content={PUBLISHER} />
                   <FactsheetItem title="Release Date" content={game.releaseDate} />
@@ -104,7 +91,7 @@ export default function PressKit({ game }) {
                   </FactsheetItem>
                   <FactsheetItem title="Price" content={[game.price]} />
                   <FactsheetItem title="Press Contact">
-                    <a href={`mailto:${PRESS_CONTACT}`} className="text-[#8D6E63] hover:underline">
+                    <a href={`mailto:${PRESS_CONTACT}`} className="text-[#6D3A25] font-dongle text-2xl hover:underline">
                       {PRESS_CONTACT}
                     </a>
                   </FactsheetItem>
@@ -131,13 +118,13 @@ export default function PressKit({ game }) {
               {/* About section */}
               <section>
                 <h2 className="text-3xl font-bold mb-4 border-b-2 border-[#8D6E63] pb-2">About The Game</h2>
-                <p className="text-lg text-[#5D4037] leading-relaxed mb-4">{game.about}</p>
+                <p className="text-3xl text-[#5D4037] font-dongle mb-4">{game.about}</p>
               </section>
 
               {/* Key Features */}
               <section>
                 <h2 className="text-3xl font-bold mb-4 border-b-2 border-[#8D6E63] pb-2">Key Features</h2>
-                <ul className="list-none space-y-2 text-lg text-[#5D4037]">
+                <ul className="list-none font-dongle text-3xl space-y-2 text-[#5D4037]">
                   {game.features.map((feature, index) => (
                     <motion.li
                       key={index}
@@ -182,7 +169,7 @@ function FactsheetItem({ title, content, children }) {
       <h3 className="text-[#8D6E63] text-lg font-semibold mb-2">{title}</h3>
       {content &&
         content.map((item, index) => (
-          <p key={index} className="text-base text-[#5D4037]">
+          <p key={index} className="text-2xl font-dongle text-[#5D4037]">
             {item}
           </p>
         ))}
@@ -360,4 +347,3 @@ function ImageWithZoom({ src, alt }) {
     </>
   )
 }
-
