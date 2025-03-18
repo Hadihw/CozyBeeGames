@@ -33,15 +33,6 @@ const UNIVERSAL_SOCIAL_MEDIA = [
   { icon: <FaDiscord />, label: "Discord", link: "https://discord.gg/xkvfprt" },
 ]
 
-// Add this CSS at the top of your file after the imports
-const bounceSlow = keyframes`
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-`
 
 /**
  * The main PressKit component. Pass in a "game" object as a prop.
