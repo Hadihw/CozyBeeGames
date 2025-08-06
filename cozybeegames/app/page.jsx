@@ -407,7 +407,6 @@ export default function HomePage() {
             <div className="bg-[#FFFAF5]">
               <FeaturedGames />
               <div className="container mx-auto px-4 py-16">
-                <JoinOurNewsletter />
               </div>
             </div>
           </motion.div>
